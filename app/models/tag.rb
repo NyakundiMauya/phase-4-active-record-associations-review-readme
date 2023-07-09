@@ -1,2 +1,3 @@
 class Tag < ApplicationRecord
-end
+    has_many :post_tags
+  end
